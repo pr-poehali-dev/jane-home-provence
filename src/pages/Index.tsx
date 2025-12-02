@@ -54,7 +54,11 @@ const Index = () => {
         <div className="container mx-auto px-4 py-4">
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-8">
-              <h1 className="text-3xl font-bold text-primary">Jane home</h1>
+              <img 
+                src="https://cdn.poehali.dev/files/a1e6c752-1b55-4bf8-b516-741bdcbc5aae.jpg" 
+                alt="Jane home" 
+                className="h-12 w-auto"
+              />
               <nav className="hidden md:flex gap-6">
                 <button
                   onClick={() => setActiveSection('home')}
@@ -373,7 +377,11 @@ const Index = () => {
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-4 gap-8">
             <div>
-              <h3 className="text-2xl font-bold text-primary mb-4">Jane home</h3>
+              <img 
+                src="https://cdn.poehali.dev/files/a1e6c752-1b55-4bf8-b516-741bdcbc5aae.jpg" 
+                alt="Jane home" 
+                className="h-16 w-auto mb-4"
+              />
               <p className="text-sm text-muted-foreground">
                 Текстиль для дома в стиле прованс и шебби-шик
               </p>
