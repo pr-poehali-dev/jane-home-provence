@@ -162,18 +162,27 @@ const Index = () => {
             <section className="relative py-20 md:py-32 overflow-hidden">
               <div className="container mx-auto px-4">
                 <div className="max-w-4xl mx-auto text-center space-y-8">
-                  <div className="flex justify-center mb-12 animate-in fade-in zoom-in duration-1000">
-                    <div className="relative w-full max-w-md aspect-[9/16] rounded-lg overflow-hidden shadow-2xl">
+                  <div className="flex justify-center mb-8 animate-in fade-in zoom-in duration-1000">
+                    <img 
+                      src="https://cdn.poehali.dev/files/a1e6c752-1b55-4bf8-b516-741bdcbc5aae.jpg" 
+                      alt="Jane home" 
+                      className="h-48 md:h-64 w-auto"
+                    />
+                  </div>
+                  
+                  <div className="w-full max-w-3xl mx-auto mb-12">
+                    <div className="relative w-full aspect-video rounded-lg overflow-hidden shadow-2xl">
                       <iframe
                         className="absolute inset-0 w-full h-full"
                         src="https://www.youtube.com/embed/kChSFX0a9co?autoplay=1&mute=1&loop=1&playlist=kChSFX0a9co"
-                        title="Jane home"
+                        title="Jane home видео"
                         frameBorder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                         allowFullScreen
                       />
                     </div>
                   </div>
+
                   <h2 className="text-3xl md:text-5xl font-bold text-primary leading-tight">
                     Уютный текстиль<br />для вашего дома
                   </h2>
