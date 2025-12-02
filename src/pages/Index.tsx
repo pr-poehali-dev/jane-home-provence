@@ -329,6 +329,13 @@ const Index = () => {
           <section className="py-16 md:py-24">
             <div className="container mx-auto px-4">
               <div className="max-w-2xl mx-auto">
+                <div className="flex justify-center mb-8 animate-in fade-in zoom-in duration-1000">
+                  <img 
+                    src="https://cdn.poehali.dev/files/a1e6c752-1b55-4bf8-b516-741bdcbc5aae.jpg" 
+                    alt="Jane home" 
+                    className="h-40 md:h-48 lg:h-56 w-auto shadow-2xl rounded-lg"
+                  />
+                </div>
                 <h2 className="text-5xl md:text-6xl font-bold text-primary text-center mb-12">
                   Контакты
                 </h2>
