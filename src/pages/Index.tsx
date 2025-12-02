@@ -166,7 +166,7 @@ const Index = () => {
                     <img 
                       src="https://cdn.poehali.dev/files/a1e6c752-1b55-4bf8-b516-741bdcbc5aae.jpg" 
                       alt="Jane home" 
-                      className="h-48 md:h-64 lg:h-80 w-auto shadow-2xl rounded-lg"
+                      className="h-64 md:h-96 lg:h-[500px] w-auto shadow-2xl rounded-lg"
                     />
                   </div>
                   <h2 className="text-3xl md:text-5xl font-bold text-primary leading-tight">
