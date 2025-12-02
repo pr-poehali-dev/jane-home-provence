@@ -148,6 +148,30 @@ const Index = () => {
               <div className="absolute inset-0 -z-10 bg-gradient-to-b from-accent/20 to-transparent" />
             </section>
 
+            <section className="py-16 md:py-24 bg-accent/20">
+              <div className="container mx-auto px-4">
+                <div className="max-w-5xl mx-auto">
+                  <div className="text-center mb-12">
+                    <h3 className="text-4xl md:text-5xl font-bold text-primary mb-4">
+                      Посмотрите наши коллекции
+                    </h3>
+                    <p className="text-muted-foreground text-lg">
+                      Каждая деталь создана с любовью
+                    </p>
+                  </div>
+                  <div className="relative w-full aspect-video rounded-xl overflow-hidden shadow-2xl">
+                    <iframe
+                      src="https://disk.yandex.ru/i/x33ZuE9qDi9gIw"
+                      className="w-full h-full"
+                      frameBorder="0"
+                      allowFullScreen
+                      allow="autoplay; fullscreen"
+                    />
+                  </div>
+                </div>
+              </div>
+            </section>
+
             <section className="py-16 md:py-24">
               <div className="container mx-auto px-4">
                 <div className="text-center mb-12">
