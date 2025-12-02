@@ -38,6 +38,46 @@ const products: Product[] = [
     image: 'https://cdn.poehali.dev/projects/6c2703bc-d6cf-454f-aea0-863e674381b8/files/beb37469-f3d0-411b-9e56-0b93e9f474b1.jpg',
     description: 'Воздушные занавески создадут атмосферу французской деревни'
   },
+  {
+    id: 4,
+    name: 'Скатерть с оборками (красная полоска)',
+    category: 'Столовая',
+    price: '6 900 ₽',
+    image: 'https://cdn.poehali.dev/files/0a37fd19-f1ca-4f59-bd1b-222ff6a2dcf6.png',
+    description: 'Уютная скатерть из натурального льна с изящными оборками'
+  },
+  {
+    id: 5,
+    name: 'Скатерть в клетку (зеленая)',
+    category: 'Столовая',
+    price: '7 200 ₽',
+    image: 'https://cdn.poehali.dev/files/7a271095-9ee3-49a7-92ce-521f4d51197b.png',
+    description: 'Элегантная скатерть в традиционную клетку с рюшами'
+  },
+  {
+    id: 6,
+    name: 'Ланчматы с оборками (полоска)',
+    category: 'Столовая',
+    price: '3 500 ₽',
+    image: 'https://cdn.poehali.dev/files/4bc95413-6cb2-44bc-8686-f3c14332589c.png',
+    description: 'Набор из 4 ланчматов с нежными оборками'
+  },
+  {
+    id: 7,
+    name: 'Домашняя пижама (белая)',
+    category: 'Для дома',
+    price: '8 900 ₽',
+    image: 'https://cdn.poehali.dev/files/acfc3e2b-3c9a-4d8c-bf0a-71c0d2aadbb6.png',
+    description: 'Роскошная пижама из воздушного льна с длинным халатом'
+  },
+  {
+    id: 8,
+    name: 'Домашнее платье (бежевое)',
+    category: 'Для дома',
+    price: '7 500 ₽',
+    image: 'https://cdn.poehali.dev/files/c9240dc7-a20e-4232-a49b-38ed7de0d403.png',
+    description: 'Свободное платье из натурального льна с ярусами'
+  },
 ];
 
 const Index = () => {
@@ -148,29 +188,7 @@ const Index = () => {
               <div className="absolute inset-0 -z-10 bg-gradient-to-b from-accent/20 to-transparent" />
             </section>
 
-            <section className="py-16 md:py-24 bg-accent/20">
-              <div className="container mx-auto px-4">
-                <div className="max-w-5xl mx-auto">
-                  <div className="text-center mb-12">
-                    <h3 className="text-4xl md:text-5xl font-bold text-primary mb-4">
-                      Посмотрите наши коллекции
-                    </h3>
-                    <p className="text-muted-foreground text-lg">
-                      Каждая деталь создана с любовью
-                    </p>
-                  </div>
-                  <div className="relative w-full aspect-video rounded-xl overflow-hidden shadow-2xl">
-                    <iframe
-                      src="https://disk.yandex.ru/i/x33ZuE9qDi9gIw"
-                      className="w-full h-full"
-                      frameBorder="0"
-                      allowFullScreen
-                      allow="autoplay; fullscreen"
-                    />
-                  </div>
-                </div>
-              </div>
-            </section>
+
 
             <section className="py-16 md:py-24">
               <div className="container mx-auto px-4">
