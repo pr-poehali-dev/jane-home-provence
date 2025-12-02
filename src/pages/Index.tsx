@@ -111,11 +111,18 @@ const Index = () => {
           <>
             <section className="relative py-20 md:py-32 overflow-hidden">
               <div className="container mx-auto px-4">
-                <div className="max-w-3xl mx-auto text-center space-y-6">
-                  <h2 className="text-5xl md:text-7xl font-bold text-primary leading-tight">
+                <div className="max-w-4xl mx-auto text-center space-y-8">
+                  <div className="flex justify-center mb-8">
+                    <img 
+                      src="https://cdn.poehali.dev/files/a1e6c752-1b55-4bf8-b516-741bdcbc5aae.jpg" 
+                      alt="Jane home" 
+                      className="h-32 md:h-40 w-auto"
+                    />
+                  </div>
+                  <h2 className="text-4xl md:text-6xl font-bold text-primary leading-tight">
                     Уютный текстиль<br />для вашего дома
                   </h2>
-                  <p className="text-lg md:text-xl text-muted-foreground">
+                  <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto">
                     Коллекции постельного белья, занавесок и столового текстиля<br />
                     в стиле прованс и шебби-шик
                   </p>
