@@ -163,11 +163,16 @@ const Index = () => {
               <div className="container mx-auto px-4">
                 <div className="max-w-4xl mx-auto text-center space-y-8">
                   <div className="flex justify-center mb-12 animate-in fade-in zoom-in duration-1000">
-                    <img 
-                      src="https://cdn.poehali.dev/files/a1e6c752-1b55-4bf8-b516-741bdcbc5aae.jpg" 
-                      alt="Jane home" 
-                      className="h-64 md:h-96 lg:h-[500px] w-auto shadow-2xl rounded-lg"
-                    />
+                    <div className="relative w-full max-w-md aspect-[9/16] rounded-lg overflow-hidden shadow-2xl">
+                      <iframe
+                        className="absolute inset-0 w-full h-full"
+                        src="https://www.youtube.com/embed/kChSFX0a9co"
+                        title="Jane home"
+                        frameBorder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowFullScreen
+                      />
+                    </div>
                   </div>
                   <h2 className="text-3xl md:text-5xl font-bold text-primary leading-tight">
                     Уютный текстиль<br />для вашего дома
