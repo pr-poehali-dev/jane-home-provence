@@ -162,7 +162,7 @@ const Index = () => {
             <section className="relative py-20 md:py-32 overflow-hidden">
               <div className="container mx-auto px-4">
                 <div className="max-w-4xl mx-auto text-center space-y-8">
-                  <div className="flex justify-center mb-12">
+                  <div className="flex justify-center mb-12 animate-in fade-in zoom-in duration-1000">
                     <img 
                       src="https://cdn.poehali.dev/files/a1e6c752-1b55-4bf8-b516-741bdcbc5aae.jpg" 
                       alt="Jane home" 
