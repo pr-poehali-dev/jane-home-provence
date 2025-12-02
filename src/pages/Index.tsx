@@ -166,7 +166,7 @@ const Index = () => {
                     <div className="relative w-full max-w-md aspect-[9/16] rounded-lg overflow-hidden shadow-2xl">
                       <iframe
                         className="absolute inset-0 w-full h-full"
-                        src="https://www.youtube.com/embed/kChSFX0a9co"
+                        src="https://www.youtube.com/embed/kChSFX0a9co?autoplay=1&mute=1&loop=1&playlist=kChSFX0a9co"
                         title="Jane home"
                         frameBorder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
